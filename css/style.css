@@ -1,0 +1,242 @@
+
+/* imports */
+@import url(_variables);
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* Body */
+
+.body{
+
+    font-family: "Montserrat";
+    font-size: 1.2rem;
+    margin: 0;
+    
+    
+}
+
+
+
+
+
+/* Main section */
+
+
+#main{
+    background: url(/image/background.png);
+    background-size: cover;
+    height: 150vh;
+}
+
+.header-main{
+    margin-top: 80px;
+}
+
+.header-info{
+    font-weight: 900;
+    font-size: 3rem;
+    color: white;
+}
+
+
+.btn-hire{
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 20px;
+}
+
+.header-btn{
+    margin-top: 20px;
+}
+
+/* Navigation */
+
+.navbar-brand{
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.nav-item{
+
+    margin: 0 20px;
+    font-size: 1.2rem;
+
+}
+
+
+/* Overview */
+.overview-title{
+    font-size: 3rem;
+}
+
+.info-width{
+    width: 60%;
+    font-size: 1.3rem;
+}
+
+.overview-icon{
+    font-size: 3rem;
+    color: #5A34FC;
+    padding: ;
+}
+
+.overview-row{
+    margin-top: 5rem;
+}
+
+
+.overview-header{
+    font-weight: 900;
+}
+
+.overview-header, .overview-icon, .info-width{
+
+    padding: 1rem 0;
+}
+
+
+/* Achievement */
+
+#achievements{
+
+    /* background-color: whitesmoke; */
+    margin-top: 100px;
+    padding: 20px 0;
+}
+.achievements-title{
+    font-size: 3rem;
+    margin-bottom: 50px;
+    font-weight: 900;
+}
+
+/* carousel */
+
+
+.carousel-image1{
+
+    width: 50%;
+    height: 10%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+    
+
+}
+
+.w-100{
+     width: 100% !important;
+     height: 75vh;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 60px;
+  width: 60px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 30px;
+  color: blue;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 30px;
+  color: blue;
+}
+
+
+
+/* Service section */
+
+
+.service-card-size{
+
+    margin-top: 150px;
+    margin-bottom: 150px;
+
+}
+
+
+.service-card-size{
+
+    height: auto;
+}
+
+
+.service-title{
+    margin-top: 90px;
+    margin-bottom: 150px;
+}
+
+.service-img1{
+
+    padding-right: 180px;
+
+}
+
+
+.service-img2{
+    padding-left: 180px;
+}
+
+.service-img3{
+
+    padding-right: 180px;
+   
+
+}
+
+
+
+.main-card-title{
+
+  background: -webkit-linear-gradient( red, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.5rem;
+  font-weight: 900;
+    
+}
+
+.upper-card-title{
+    font-size: 1.5rem;
+}
+
+.card{
+
+  max-height: 400px;
+  max-width: 500px;
+  background: whitesmoke;
+  border-color: white;
+  
+  box-shadow: 10px 10px 46px -6px rgba(0,0,0,0.75);
+ 
+ border-width: 3px 3px 3px 3px;
+ border-image: linear-gradient(45deg, rgba(255,0,0,0) 0%, rgba(242,55,55,1) 100%);
+ border-image-slice: 15;
+ border-style: solid;
+}
+
+.second-card{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.card-body{
+    
+}
+
