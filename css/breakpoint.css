@@ -2,7 +2,7 @@
 @media (max-width: 576px) { 
 
      .logo{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         font-weight: 900;
     }
 
@@ -11,10 +11,7 @@
         padding-top: 0px;
     }
 
-    .header-btn{
-        
-    }
-
+    
 
     .phone-image{
         margin-top: 20px;
